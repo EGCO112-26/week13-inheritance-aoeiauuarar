@@ -14,12 +14,12 @@ public:
 student::student(long i, double g,string s):MU_person(i,s){
 // Finish constructor to set all values
   gpa = g;
-  cout<<"MU student constructor "<<gpa<<endl;
+  cout<<"MU student constructor  "<<gpa<<endl;
   
 }
 student::~student(){
      cout<<"-------"<<endl;
-     cout<<"student destructor  "<<gpa<<endl; 
+     cout<<"student destructor "<<gpa<<endl; 
 }
 
 
