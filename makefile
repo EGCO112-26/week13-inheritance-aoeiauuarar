@@ -1,8 +1,8 @@
-compile: MU_Person.h student.h LL_test.cpp
-	 g++ LL_test.cpp LL.cpp NODE.cpp -o inh
+compile:LL_test.cpp
+	g++ LL_test.cpp LL.cpp NODE.cpp -o inh
 run: inh
-	 ./inh
+	./inh 012  3.0 pupha 120  3.1 ryan
 
 
 clean: inh
-	 rm inh
+	rm inh

@@ -19,7 +19,7 @@ student::student(long i, double g,string s):MU_person(i,s){
 }
 student::~student(){
      cout<<"-------"<<endl;
-     cout<<"student destructor   "<<gpa<<endl; 
+     cout<<"student destructor  "<<gpa<<endl; 
 }
 
 
